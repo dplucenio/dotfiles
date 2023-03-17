@@ -17,25 +17,25 @@ let g:airline_powerline_fonts = 1
 let g:airline_theme='bubblegum'
 
 " ctrkp config
-let g:ctrlp_show_hidden=1   " makes ctrlp search hidden files
+let g:ctrlp_show_hidden=1            " makes ctrlp search hidden files
 
 " tab settings:
-filetype plugin indent on   " allows auto-indenting depending on file type
-set tabstop=4               " number of columns occupied by a tab character
-set shiftwidth=4            " width for autoindents
-set softtabstop=4           " see multiple spaces as tabstops so <BS> does the right thing
-set expandtab               " convert tabs to white space
+filetype plugin indent on            " allows auto-indenting depending on file type
+set tabstop=4                        " number of columns occupied by a tab character
+set shiftwidth=4                     " width for autoindents
+set softtabstop=4                    " see multiple spaces as tabstops so <BS> does the right thing
+set expandtab                        " convert tabs to white space
+set listchars=tab:>-,trail:·,space:· " configures invisible characters
 
-set clipboard=unnamedplus   " clipboard config
-set scrolloff=5             " cursor offset
-set encoding=utf-8          " encoding
-set incsearch               " use incremental search
-set hlsearch                " highlight searchs
-"set cc=80                  " set a color column
+set clipboard=unnamedplus            " clipboard config
+set scrolloff=5                      " cursor offset
+set encoding=utf-8                   " encoding
+set incsearch                        " use incremental search
+set hlsearch                         " highlight searchs
+"set cc=80                           " set a color column
 
-set background=dark         " explicitly set dar backgound (for tmux issue)
+set background=dark                  " explicitly set dar backgound (for tmux issue)
 
 " hybrid line numbers:
 " set number relativenumber
 " set nu rnu
-
